@@ -1,0 +1,58 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fb;
+}
+
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(120deg, #6366f1, #2563eb);
+  color: white;
+  padding-top: 80px;
+}
+
+.glass-nav {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+}
+
+.btn-gradient {
+  background: linear-gradient(45deg, #2563eb, #6366f1);
+  color: white;
+  border: none;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+}
+
+.modern-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.modern-card:hover {
+  transform: translateY(-8px);
+}
+
+.glass-form {
+  max-width: 500px;
+  background: rgba(255,255,255,0.85);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.footer {
+  padding: 20px;
+  background: #0f172a;
+  color: white;
+}
+
+.footer a {
+  color: #93c5fd;
+  text-decoration: none;
+}
